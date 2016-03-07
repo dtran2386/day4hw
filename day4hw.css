@@ -1,0 +1,283 @@
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: darkslateblue;
+}
+
+.header {
+    color: white;
+    height: 35px;
+    width: 100%;
+    border: 1px solid orangered;
+    background-color: orangered;
+    display: inline-block;
+}
+
+div .link {
+    border: 1px solid #c7542d;
+    height: 21px;
+    width: 90px;
+    background-color: #c7542d;
+    margin-left: 10%;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+
+.header div p {
+    display: inline-block;
+    padding-left: 3%;
+    margin: 0 0;
+    font-size: 19px;
+    color: white;
+}
+
+.header2 {
+    border: 1px solid white;
+    height: 125px;
+    width: 100%;
+    padding-left: 10%;
+    border-bottom: 1px solid lightgrey;
+}
+
+.header2 div {
+    display: inline-block;
+    padding-left: 3.7%;
+    font-size: 28px;
+    margin: 3.2% 0;
+    vertical-align: top;
+    color: grey;
+}
+
+.input {
+    height: 200px;
+    display: inline-block;
+    width: 500px;
+    position: relative;
+}
+
+#lcart {
+    position: absolute;
+    padding-top: 3.5%;
+    padding-left: 14%;
+}
+
+#cart {
+    height: 41px;
+    width: 94px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    color: grey;
+    text-align: center;
+    margin-right: 2%;
+    margin-left: 12%;
+}
+/*
+#lsearch {
+    position: absolute;
+    padding-top: 5px;
+    padding-left: 2.5px;
+}*/
+/*
+.input {
+    position: absolute;
+    width: 5px;
+    height: 0px;
+    color: transparent;
+    text-shadow: none;
+    vertical-align: middle;
+    background: url(http://skinnyties.com/skin/frontend/skinnyties/skinnyties/img/sprite.png) -10px -30px no-repeat;
+    background-image: url("http://skinnyties.com/skin/frontend/skinnyties/skinnyties/img/sprite.png");
+}*/
+
+#search {
+    border: 1px solid lightgrey;
+    height: 28px;
+    width: 152px;
+    box-shadow: #f4f4f4 0 0 0 4px;
+}
+
+.ties {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: #F4F4F4;
+    font-size: 20px;
+}
+
+.tie {
+    text-align: center;
+}
+
+.headline {
+    text-align: center;
+    font-size: 60px;
+    background-color: #F4F4F4;
+    height: 150px;
+    padding-top: 5%;
+    border-bottom: 1px solid lightgrey;
+}
+
+div.three {
+    width: 100%;
+    height: 400px;
+    margin: 4% 12%;
+}
+
+div.three div{
+    display: inline-block;
+    padding: 0 .5%;
+}
+
+.square {
+    width: 340px;
+    height: 200px;
+}
+
+.acc {
+    position: absolute;
+    padding: .05% 0 0 17.65%;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#note {
+    text-align: center;
+    width: 75%;
+    height: 200px;
+    font-size: 36px;
+    margin-top: 7%;
+    margin-bottom: 6%;
+    font-weight: 200;
+}
+
+#story {
+    font-size: 18px;
+}
+
+.bottom {
+    display: inline-block;
+    padding-left: 9.3%;
+    width: 100%;
+    margin-top: 5%;
+    border-top: 1px solid lightgrey;
+}
+
+div ul {
+    display: inline-block;
+    width: 233px;
+    list-style-type: none;
+}
+
+ul img {
+    width: 233px;
+    height: 137px;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+.upper {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+#email {
+    border: 3px solid #f4f4f4;
+    margin: 1% 0;
+}
+
+#subscribe {
+    border: 1px solid #0099ff;
+    background-color: #0099ff;
+    border-radius: 3px;
+    margin: 3% 0;
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    background-color: #f4f4f4;
+    color: grey;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid lightgrey;
+}
+
+#shop {
+    padding-left: 12.2%;
+    width: 90px;
+}
+
+.upper2 {
+    color: black;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 13px;
+}
+
+.foot {
+    width: 100px;
+    margin-left: 0;
+}
+
+.finePrint {
+    background-color: #f4f4f4;
+    padding-left: 12.2%;
+    color: grey;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+#gravity {
+    border-bottom: 2px dotted lightgrey;
+    color: grey;
+}
+
+.contact {
+    border: 1px solid #A0AEC1;
+    background-color: #A0AEC1;
+    color: white;
+    border-radius: 3px;
+    width: 260px;
+    height: 145px;
+    font-size: 18px;
+    float: right;
+    position: absolute;
+    margin: 1% 0 0 65%;
+    padding: 0 1%;
+}
+
+.contact p {
+    margin: 0 0;
+}
+
+#contact {
+    border: 1px solid #0099ff;
+    background-color: #0099ff;
+    border-radius: 3px;
+    color: white;
+    position: absolute;
+    margin: 7% 0 0 76.5%;
+    font-size: 20px;
+}
